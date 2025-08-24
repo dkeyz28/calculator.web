@@ -30,7 +30,7 @@ function appendToDisplay(value) {
 } 
  
 function clearDisplay() { 
-    display.value = "Consultation cleared✨";
+    display.value = "oya make we clear am";
     setTimeout(() => display.value = "0", 1200); 
 } 
  
@@ -40,11 +40,10 @@ function calculate() {
  
         // Add Nigerian/Ifa style “oracle” responses 
         let responses = [ 
-            "The gods have spoken: " + result, 
+            "Toor😂The gods have spoken: " + result, 
             "Ifa says the answer is " + result, 
             "Divine consultation reveals → " + result, 
-            "As the kola nut falls, so it is: " + result, 
-            "Ogun no dey lie! Result: " + result 
+            "As the kola nut 🥜falls, so it is: " + result
         ]; 
  
         // Pick a random response 
@@ -53,4 +52,5 @@ function calculate() {
     } catch (e) { 
         display.value = "The oracle is silent...❌"; 
     } 
+
 }

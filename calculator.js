@@ -50,7 +50,8 @@ function calculate() {
         let divineMessage = responses[Math.floor(Math.random() * responses.length)]; 
         display.value = divineMessage; 
     } catch (e) { 
-        display.value = "The oracle is silent...❌"; 
+        display.value = "The oracle no sabi this one oo🥱"; 
     } 
 
 }
+
